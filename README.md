@@ -8,7 +8,7 @@ This *Visual Studio* solution is supposed to complement examples that could be f
 Additionally, everyone is very welcome to provide missing code examples.
 
 ### Source code
-Clone the sources: `git clone https://github.com/DocuWare/Platform.NETClient.git`
+Clone the sources: `git clone https://github.com/DocuWare/Platform.NETClient-Async-Samples.git`
 
 ### Building
 You need at least *Visual Studio 2012* installation of any edition.
