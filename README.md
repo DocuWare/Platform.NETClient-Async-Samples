@@ -11,7 +11,7 @@ Additionally, everyone is very welcome to provide missing code examples.
 Clone the sources: `git clone https://github.com/DocuWare/Platform.NETClient-Async-Samples.git`
 
 ### Building
-You need at least *Visual Studio 2012* installation of any edition.
+You need at least *Visual Studio 2015* installation of any edition.
 To get started:
 * Clone the source code (see above).
 * Open *src/Samples.sln* in *Visual Studio*
@@ -20,7 +20,7 @@ To get started:
 In order to be able to execute examples provided you need a supported version of *DocuWare* system.  
 
 ### Supported DocuWare versions
-This implementation uses the *DocuWare Platform .NET API* of ***DocuWare 6.9***.  
+This implementation uses the *DocuWare Platform .NET API* of ***DocuWare 7.0***.  
 Most of the examples will also run with *DocuWare 6.5* or higher.
 
 
