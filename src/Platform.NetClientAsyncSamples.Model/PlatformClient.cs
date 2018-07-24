@@ -9,7 +9,7 @@ using DocuWare.Services.Http.Client;
 
 namespace Platform.NETClient_Async_Samples
 {
-    class PlatformClient
+    public class PlatformClient
     {
         public ServiceConnection Conn { get; set; }
         public Uri BaseAddress { get; set; }
@@ -68,8 +68,10 @@ namespace Platform.NETClient_Async_Samples
                 BaseAddress = BaseAddress,
                 Timeout = timeSpan
             };
+
+            var proxy = new HttpClientProxy(httpClient);
             // Set proxy in service description
-            Conn.ServiceDescription.SetProxy(httpClient);
+            Conn.ServiceDescription.SetProxy(proxy);
         }
         /// <summary>
         /// Creates the HTTP client handler.

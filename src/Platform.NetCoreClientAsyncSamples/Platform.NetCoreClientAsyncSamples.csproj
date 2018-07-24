@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocuWarePlatformApi" Version="7.0.8321" />
+    <PackageReference Include="DocuWareWebClientIntegration" Version="7.0.8321" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Platform.NetClientAsyncSamples.Model\Platform.NetClientAsyncSamples.Model.csproj" />
+  </ItemGroup>
+
+</Project>

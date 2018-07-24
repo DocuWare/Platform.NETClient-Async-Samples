@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Platform.NetClientAsyncSamples.Model.Exceptions;
+using Platform.NETClient_Async_Samples;
 
-namespace Platform.NETClient_Async_Samples
+namespace Platform.NetCoreClientAsyncSamples
 {
     /// <summary>
     /// This samples depict actions by a single user, thus there is no need for an asynchronous authentication at the platform.
@@ -40,7 +39,7 @@ namespace Platform.NETClient_Async_Samples
                             t => t.Result.Content
                                 .FileCabinet.FirstOrDefault(f => !f.IsBasket))
                         .ConfigureAwait(false);
-            if(fc == null)
+            if (fc == null)
                 throw new FileCabinetNotFoundException($"No filecabinet found for user {user}.");
 
 
