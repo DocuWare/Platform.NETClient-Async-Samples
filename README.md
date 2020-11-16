@@ -1,9 +1,9 @@
 # Platform.NETClient-Async-Samples
-*Platform.NETClient* makes it easy to start using [DocuWare Platform .NET API](http://help.docuware.com/sdk/platform).  
+*Platform.NETClient* makes it easy to start using [DocuWare Platform .NET API](https://go.docuware.com/DotNetPlatform).  
 
 Here you will find a *Visual Studio* solution that contains a basic implemenation of a client showing how to use *Platform .NET API* and some examples showing basic operations you can do.  
 
-This *Visual Studio* solution is supposed to complement examples that could be found on the help page of [DocuWare Platform .NET API](http://help.docuware.com/sdk/platform) and it could/will be updated more often than the help page which is usually updated once per release.
+This *Visual Studio* solution is supposed to complement examples that could be found on the help page of [DocuWare Platform .NET API](https://go.docuware.com/DotNetPlatform) and it could/will be updated more often than the help page which is usually updated once per release.
 
 Additionally, everyone is very welcome to provide missing code examples.
 
